@@ -1,0 +1,4 @@
+/node_modules
+.next
+.github
+# Add any other directories or files you want to exclude

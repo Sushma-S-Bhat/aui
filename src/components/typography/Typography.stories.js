@@ -1,9 +1,9 @@
-import { Typography } from "./Typography";
+import { AuiTypography } from "aui-sushma-new/src/components/typography";
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 export default {
   title: 'Common/Typography',
-  component: Typography,
+  component: AuiTypography,
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args

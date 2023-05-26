@@ -1,9 +1,9 @@
-import { Button } from './Button';
+import { AuiButton } from './Button';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 export default {
   title: 'Common/Button',
-  component: Button,
+  component: AuiButton,
   argTypes: {
     backgroundColor: {
       control: 'color',
@@ -11,12 +11,6 @@ export default {
     args:{
       label:'Button'
     },
-    parameters: {
-      componentSource: {
-        code: Button,
-        language: 'javascript',
-      }
-    }
   },
 };
 

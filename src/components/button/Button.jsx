@@ -5,14 +5,14 @@ import { Button as MuiButton } from '@mui/material';
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ variant='contained', color, size, label, ...props }) => {
+export const AuiButton = ({ variant='contained', color, size, label, ...props }) => {
   // const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
     <MuiButton variant={variant} size={size} color={color} >{label}</MuiButton>
   );
 };
 
-Button.propTypes = {
+AuiButton.propTypes = {
   /**
    * Is this the principal call to action on the page?
    */
@@ -35,7 +35,7 @@ Button.propTypes = {
   onClick: PropTypes.func,
 };
 
-Button.defaultProps = {
+AuiButton.defaultProps = {
   backgroundColor: null,
   primary: false,
   size: 'medium',
