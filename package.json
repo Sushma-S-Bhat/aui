@@ -34,5 +34,10 @@
     "storybook": "^7.0.17"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "aui@0.1.0"
+  "_id": "aui@0.1.0",
+  "release": {
+    "branches": [
+      "master"
+    ]
+  }
 }
